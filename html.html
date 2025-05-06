@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burgerlicious Madness</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div id="popup-advert" class="popup">
+    <div class="popup-content">
+      <button class="close-popup" onclick="closePopup()">&times;</button>
+      <a href="https://maps.app.goo.gl/TgbNMTCRBd6VspfH7" target="_blank">
+      <img src="resources/advertisement.jpg" alt="Advertisement" />
+    </a>
+    </div>
+  </div>
+  
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo" id="site-header">
+        <a href="file:///C:/Users/Nicole/Desktop/FOOD%20WEBSITE/burgerlicious%20madness.html#">
+          <img src="resources/icon_blacklogo.svg" alt="Logo" class="icon" />
+        </a>
+      </div>
+
+      <div class="search-bar">
+        <button class="search-btn">
+          <img src="resources/icon_search.svg" alt="Search" class="icon search-icon" id="site-header" />
+        </button>
+        <input type="text" placeholder="Search" />
+      </div>
+
+      <div class="title-icon" id="site-header">
+        <a href="file:///C:/Users/Nicole/Desktop/FOOD%20WEBSITE/burgerlicious%20madness.html#">
+        <img src="resources/icon_blacktitle.svg" alt="Title Icon" class="icon" />
+        </a>
+      </div>
+
+      <nav class="main-nav" id="site-header">
+        <div class="dropdown">
+          <a href="#menu" class="main-nav">Menu</a>
+          <div class="dropdown-content">
+            <a href="#burgers-sandwiches">Burgers & Sandwiches</a>
+            <hr>
+            <a href="#rice-meals">Rice Meals</a>
+            <hr>
+            <a href="#wings-pasta">Wings & Pasta</a>
+            <hr>
+            <a href="#sides-starters">Sides & Starters</a>
+            <hr>
+            <a href="#combo-bundles">Combo & Bundles</a>
+          </div>
+        </div>
+        <span class="divider1">|</span>
+        <a href="#locations">Locations</a>
+        <span class="divider2">|</span>
+        <a href="#contact">Contact Us</a>
+      </nav>
+      
+  </header>
+
+  <a href="https://maps.app.goo.gl/TgbNMTCRBd6VspfH7" target="_blank" class="black-header-link">
+    <div class="black-header">
+      <h1 class="black-header-text">
+        BURGERLICIOUS MADNESS MARIKINA <span class="highlight">OPEN NOW</span>
+      </h1>
+    </div>
+  </a>
+
+  <section class="banner-slider">
+    <button class="prev">
+      <img src="resources/icon_left.svg" alt="Previous" class="arrow-icon" />
+    </button>
+
+    <div class="slider-container">
+      <div class="slide">
+        <img src="resources/banner1.jpg" alt="Banner 1" />
+      </div>
+      <div class="slide">
+        <img src="resources/banner2.jpg" alt="Banner 2" />
+      </div>
+      <div class="slide">
+        <img src="resources/banner3.jpg" alt="Banner 3" />
+      </div>
+      <div class="slide">
+        <img src="resources/banner4.jpg" alt="Banner 4" />
+      </div>
+    </div>
+
+    <button class="next">
+      <img src="resources/icon_right.svg" alt="Next" class="arrow-icon" />
+    </button>
+
+    <div class="indicator-container" id="indicator-container">
+      <span class="indicator active"></span>
+      <span class="indicator"></span>
+      <span class="indicator"></span>
+      <span class="indicator"></span>
+    </div>
+  </section>
+
+  <section class="menu-section" id="menu-section">
+    <div class="menu-container">
+      <div class="menu-item">
+        <a href="#burgers-sandwiches">
+          <img src="resources/icon_burger.svg" alt="Burger" class="menu-burger" />
+          <h3>BURGERS <span class="orange">&</span> SANDWICHES</h3>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#rice-meals">
+          <img src="resources/icon_ricemeal.svg" alt="Ricemeal" class="menu-ricemeal" />
+          <h3>RICE MEALS</h3>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#wings-pasta">
+          <img src="resources/icon_chicken.svg" alt="Chicken" class="menu-chicken" />
+          <h3>WINGS <span class="orange">&</span> PASTA</h3>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#sides-starters">
+          <img src="resources/icon_fries.svg" alt="Fries" class="menu-fries" />
+          <h3>SIDES <span class="orange">&</span> STARTERS</h3>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="#combo-bundles">
+          <img src="resources/icon_combo.svg" alt="Combo" class="menu-combo" />
+          <h3>COMBO <span class="orange">&</span> BUNDLES</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="location-section" id="location-section">
+    <img src="resources/icon_pinpoint.svg" alt="Pinpoint 1" class="location-pin" />
+    <img src="resources/icon_pinpoint.svg" alt="Pinpoint 2" class="location-pin" />
+    <img src="resources/icon_pinpoint.svg" alt="Pinpoint 3" class="location-pin" />
+    <img src="resources/icon_locationtext.svg" alt="Location Text" class="location-text" />
+    
+    <div class="button-container">
+      <a href="#locations-section" class="location-button">LOCATIONS</a>
+      <img src="resources/icon_burger.svg" alt="Burger Icon" class="button-icon1" />
+      <img src="resources/icon_fries.svg" alt="Fries Icon" class="button-icon2" />
+    </div>
+  </section>
+
+  <footer class="site-footer" id="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <a>
+          <img src="resources/icon_footerlogo.svg" alt="Footer Logo" class="footer-logo-img" />
+        </a>
+      </div>
+      <div class="footer-section">
+        <h3 class="getintouch ">Get in Touch</h3>
+        <a href="mailto:burgeliciousmadness@gmail.com">
+        <p><img src="resources/icon_email.svg" alt="" class="icons" /> Burgeliciousmadness@gmail.com</p>
+        </a>
+        <a href="https://maps.app.goo.gl/KgxFE3jCtBbQrvZs8" target="_blank" rel="noopener noreferrer">
+        <p><img src="resources/icon_map.svg" alt="" class="icons" /> #2 Asarol Street, Sto. Niño, Marikina City</p>
+        </a>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/burgeliciousmadnessbypnx" target="_blank" rel="noopener noreferrer">
+            <img src="resources/icon_facebook.svg" alt="Facebook" class="facebook" />
+          </a>
+          <a href="https://www.tiktok.com/@burgeliciousmadness" target="_blank" rel="noopener noreferrer">
+            <img src="resources/icon_tiktok.svg" alt="TikTok" class="tiktok" />
+          </a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Legal & Contact</h3>
+        <p><a href="#">Contact Us</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Terms and Condition</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Burgerlicious Madness, LLC</p>
+    </div>
+  </footer> 
+
+  <script src="script.js"></script>
+</body>
+
+</html>
