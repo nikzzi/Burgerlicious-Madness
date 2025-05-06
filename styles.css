@@ -352,7 +352,7 @@
 
   .menu-section {
     width: 100%;
-    background-image: url('resources/menubg.jpg'); 
+    background-image: url('menubg.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -612,7 +612,7 @@
 
   .location-section {
     width: 100%;
-    background-image: url('resources/locationbg.jpg'); 
+    background-image: url('locationbg.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
